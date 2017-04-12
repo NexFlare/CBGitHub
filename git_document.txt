@@ -27,5 +27,9 @@ git remote add link -> TO CREATE A REMOTE FOR THE LINK
 git push name_of_remote name_of_branch -> TO PUSH THE BRANCH IN GITHUB REPOSITORY
 git pull name_of_remote name_of_branch -> TO PULL THE BRANCH IN GITHUB REPOSITORY
 this equivalent fit fetch origin and then git merge master origin/master
- 
 git push -u origin master --> u stands for update. Push the master branch in reomote named origin
+
+git checkout 
+git branch -f master
+
+git config --global core.editor notepad
